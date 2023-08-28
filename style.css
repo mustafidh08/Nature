@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  direction: ltr;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #000;
+  color: white;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+
+.navbar .nav-item a {
+  font-size: 12px;
+}
+
+.navbar-brand b {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: #4e8f3a;
+}
+
+.navbar-scrolled {
+  background-color: rgb(22, 22, 22);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10vh;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.banner .utama {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+}
+
+.banner-content {
+  height: 43rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+}
+
+.banner-2:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.banner-2 .utama {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+}
+
+.banner-content-2 {
+  height: 30rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gambar img {
+  height: 10rem;
+  width: 6rem;
+}
+
+.about h1 b {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: #4e8f3a;
+}
+
+.mid {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  height: 15rem;
+}
+
+.mid h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.mid p {
+  font-size: 15px;
+}
+
+.hadist {
+  margin-bottom: 19rem;
+}
+
+.journal p {
+  font-size: 13px;
+}
+
+.journal h2 {
+  font-family: "Playfair Display", serif;
+}
+
+footer {
+  background-color:  black;
+}
+
+footer a {
+  color: white;
+  font-size: 13px;
+  margin-left: 15px;
+}
+
+footer b {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: #4e8f3a;
+}
+
+@media only screen and (max-width: 950px) {
+  .navbar {
+    text-align: center;
+  }
+}
